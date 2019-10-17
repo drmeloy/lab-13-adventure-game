@@ -2,9 +2,9 @@
 
 ## What folders/files will I need?
 
-1. Landing folder
+1. Home folder
     - make-user.js (make user function)
-    - landing.js (invoke make user funciton from the form, save the user to local storage, redirect to map page)
+    - home.js (invoke make user funciton from the form, save the user to local storage, redirect to map page)
     - landing.css
     - index.html (outside of folder?) 
 2. Map folder
