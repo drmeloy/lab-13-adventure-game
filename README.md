@@ -28,7 +28,7 @@
     - index.html
     - results.css
 5. Data folder
-    - data.js (JSON file for storing the information on each quest
+    - [x] data.js (JSON file for storing the information on each quest)
 6. Common folder
     - user-save-load.js (to store or retrieve user stats to/from local storage)
     - find-by-id.js (old faithful)
@@ -58,3 +58,8 @@
         - You are destroyed by the humans who fear you
         - The humans are bemused by you, allowing you into their society but not accepting you as an independent citizen
         - The humans realize they can no longer consider you to be mere machine, but something more, and bestow upon you rights and priviliges befitting a member of society
+
+    ## Robot starting values
+        - HP: 100
+        - Social: 0
+        - Items: 0
