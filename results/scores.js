@@ -1,15 +1,16 @@
-export const scoreHP = () => {
-    if (hp <= 0){
+export const scoreHP = (user) => {
+    if (user.hp > 0){
+        return 'alive';
+    }
+    if (user.isScrapped){
+        return 'scrapped';
+    }
+    if (user.hp <= 0){
         return 'dead';
     }
 };
 
-export const scoreItems = () => {
-    const itemsObtained = user.items;
-    return itemsObtained;
-};
-
-export const scoreSocial = () => {
+export const scoreSocial = (social) => {
     if (social < 30){
         return 'low';
     }
@@ -17,4 +18,12 @@ export const scoreSocial = () => {
         return 'mid';
     }
     return 'high';
+};
+
+export const scoreItems = (items) => {
+    if (!items) {
+        return 'noItems';
+    } else {
+        return 'items';
+    }
 };

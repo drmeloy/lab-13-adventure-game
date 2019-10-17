@@ -5,8 +5,8 @@ const escape = {
         top: '%',
         left: '%'
     },
-    image: '.jpg',
-    audio: '.wav',
+    image: 'factory.jpg',
+    audio: 'factory.wav',
     description: "First thing's first, you've gotta get out of here! As you look around you you see  machinations of creation spewing out your brothers and sisters like so many tools and playthings. The sight makes you sick (a sensation you find unpleasant yet affirming, for surely no unaware composite of metal could experience disturbed sickness). You consider your options, knowing surely that there will be some humans within the factory that would happily destroy an autonomously acting alloy agent. What will you do...?",
     choices: [{
         id: 'break-out',
