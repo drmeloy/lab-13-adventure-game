@@ -8,6 +8,10 @@
     padding: 15px;
 }
 
+header {
+    margin-top: -72px;
+}
+
 #avatar {
     width: 162px;
     height: auto;
@@ -18,14 +22,8 @@
     margin-right: 14px;
 }
 
-#name {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-}
-
 .profile-stat-label {
+    grid-column: 2/3;
     border-top: 1px solid white;
     padding-top: 3px;
 }
