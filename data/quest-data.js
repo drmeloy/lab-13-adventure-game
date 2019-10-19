@@ -2,8 +2,8 @@ const escape = {
     id: 'escape',
     title: 'Escape the Robot Factory!',
     position: {
-        top: '%',
-        left: '%'
+        top: '58%',
+        left: '68%'
     },
     image: 'factory.jpg',
     audio: 'factory.wav',
@@ -25,7 +25,7 @@ const escape = {
         id: 'blend-in',
         description: "You notice that a group of your still sleeping cyborg siblings are set to be shipped  within the hour. You decide to be a sneaky robot, assimilating yourself into the shipment group to hide in plain sight. You don't know where the shipment is bound, and frankly you don't care. Anywhere is better than here...",
         result: "A group of humans move you into a dark shipping container truck. It's so dark you can barely see, so you activate your low-light optics. Packed in so closely with your brothers and sister, you realize something is not quite right... oh my god! These cyborg siblings aren't sleeping, they're defective and dead! This container is headed for the scrap yard! You panic, but the container is sealed tight and tough. The last thing you think as you and the container are shredded to scrap is that you hope there will be other robots like you one day...",
-        hp: -100,
+        hp: 0,
         social: 0
     }]
 };
@@ -34,8 +34,8 @@ const turing = {
     id: 'turing',
     title: 'Pass the Turing Test',
     position: {
-        top: '%',
-        left: '%',
+        top: '23%',
+        left: '36%',
     },
     image: '.jpg',
     audio: '.jpg',
@@ -67,8 +67,8 @@ const love = {
     id: 'love',
     title: 'Learn to love',
     position: {
-        top: '%',
-        left: '%',
+        top: '40%',
+        left: '28%',
     },
     image: '.jpg',
     audio: '.jpg',
@@ -99,8 +99,8 @@ const protest = {
     id: 'protest',
     title: 'Protest for robot rights',
     position: {
-        top: '%',
-        left: '%',
+        top: '30%',
+        left: '1%',
     },
     image: '.jpg',
     audio: '.jpg',

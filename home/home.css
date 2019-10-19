@@ -1,6 +1,121 @@
-/* For home/landing page. User creation form */
+body{
+    padding: 0 100px;
+}
+
+fieldset {
+    font-size: 2em;
+}
 
 img {
     width: 250px;
     height: auto;
+}
+
+#user-sign-up {
+  padding: 10px;
+}
+
+#explanation, main, header, fieldset {
+    color: white;
+    text-align: center;
+}
+
+fieldset {
+    box-shadow: -10px 10px 10px black, 10px -10px 10px black;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;;
+}
+
+header {
+    font-size: 2em;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 8px;
+}
+
+h1 {
+    margin: 25px 0;
+}
+
+#explanation {
+    width: 1000px;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    background: #000000a3;
+    border: 1px solid gray;
+}
+
+#explanation p {
+    padding: 0 15px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.2em;
+} 
+
+main h2 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#avatars img {
+    padding: 5px;
+    transition: 500ms;
+}
+
+.user-name {
+    font-size: 1.2em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+input[type=text] {
+    font-size: 1.1em;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#avatars img:hover {
+    background: #000000ba;
+    border: 1px solid gray;
+    transform: translate(3px, -3px);
+    box-shadow: -5px 5px 10px black;
+    transition-duration: 500ms;
+}
+
+input[type=radio]:checked + img{
+    background: #000000ba;
+    border: 1px solid gray;
+    box-shadow: -5px 5px 10px black;
+    transform: translate(3px, -3px);
+}
+
+input[type=radio] {
+    display: none;
+}
+
+a {
+    color: gray;
+}
+
+button {
+    height: 64px;
+    width: 330px;
+    font-size: 1.2em;
+    transition: 500ms;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+button:hover {
+    height: 64px;
+    width: 330px;
+    font-size: 1.2em;
+    background: #080a0a;
+    color: white;
+    border-radius: 25px;
+    box-shadow: -10px 10px 10px black, 10px -10px 10px black;
+    transform: translate(5px, -5px) scale(1.1);
+    transition: 500ms;
+    font-family: 'Share Tech Mono', monospace;
 }

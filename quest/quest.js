@@ -23,7 +23,6 @@ const choiceForm = document.getElementById('choice-form');
 const choices = document.getElementById('choices');
 const result = document.getElementById('result');
 const resultDescription = document.getElementById('result-description');
-const returnToMap = document.getElementById('return-to-map');
 
 title.textContent = quest.title;
 image.src = '../assets/quests/' + quest.image;
@@ -50,8 +49,4 @@ choiceForm.addEventListener('submit', (event) => {
     result.classList.remove('hidden');
     resultDescription.textContent = choice.result;
     loadProfile();
-});
-
-returnToMap.addEventListener('click', () => {
-    window.location = '../map';
 });

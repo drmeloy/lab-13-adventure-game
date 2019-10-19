@@ -1,1 +1,22 @@
-/* For main body of all pages */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../assets/bg/90440.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    font-size: 2em;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 8px;
+}
+
+h1 {
+    margin: 25px 0;
+    color: white;
+    text-align: center;
+}

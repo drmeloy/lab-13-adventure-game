@@ -1,1 +1,5 @@
 /* For styling each quest page */
+
+#choice-form.hidden {
+    display: none;
+}

@@ -1,9 +1,9 @@
 export const scoreHP = (user) => {
-    if (user.hp > 0){
-        return 'alive';
-    }
     if (user.isScrapped){
         return 'scrapped';
+    }
+    if (user.hp > 0){
+        return 'alive';
     }
     if (user.hp <= 0){
         return 'dead';
