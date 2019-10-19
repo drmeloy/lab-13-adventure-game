@@ -17,3 +17,15 @@ export const createCompletedQuest = (quest) => {
     span.textContent = quest.title;
     return span;
 };
+
+export const disableNonFirstQuests = (user) => {
+    if (!user.completed['escape']){
+        const links = document.querySelectorAll('a');
+        links.forEach(link => {
+            const href = link.href;
+            if (href !== 'http://127.0.0.1:5500/lab-13-adventure-game/quest/?id=escape'){
+                link.classList.add('link-disabled');
+            }
+        });
+    }
+};

@@ -1,7 +1,7 @@
 import { getUser } from '../common/user-save-get.js';
 import { quests } from '../data/quest-data.js';
 import { loadProfile } from '../common/load-profile.js';
-import { createQuestLink, createCompletedQuest } from './create-quests.js';
+import { createQuestLink, createCompletedQuest, disableNonFirstQuests } from './create-quests.js';
 import { hasCompletedAllQuests } from './has-completed-all-quests.js';
 import { isDead, isScrapped } from '../common/is-dead.js';
 
@@ -22,3 +22,5 @@ quests.forEach(quest => {
     }
     nav.appendChild(questDisplay);
 });
+
+disableNonFirstQuests(user);

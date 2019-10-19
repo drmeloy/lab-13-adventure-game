@@ -37,7 +37,7 @@ main h2 {
 
 .quest.completed {
     color: whitesmoke;
-    font-size: .9em;
+    font-style: italic;
 }
 
 .quest:hover {
@@ -45,6 +45,15 @@ main h2 {
     transition-duration: 500ms;
 }
 
+.quest.completed:hover {
+    color: whitesmoke;
+    transform: translate(0, 0);
+}
+
 .quest.completed:after {
     content: ' ✔';
+}
+
+a.quest.link-disabled {
+    display: none;
 }
