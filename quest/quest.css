@@ -1,5 +1,94 @@
-/* For styling each quest page */
-
 #choice-form.hidden {
     display: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 800px;
+}
+
+#title {
+    position: absolute;
+    top: 80%;
+    left: 19%;
+    font-size: 3em;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    letter-spacing: 1.2px;
+}
+
+#description {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background: #000000a3;
+    border: 1px solid gray;
+    padding: 15px 25px;
+}
+
+#choice-form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background: #000000a3;
+    border: 1px solid gray;
+    padding: 10px 25px;
+}
+
+#choices {
+    display: block;
+    list-style: none;
+    padding: 0 5px;
+    margin: 0;
+}
+
+#choices span {
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#choices span:hover {
+    background: #000000ba;
+    border: 1px solid gray;
+    transform: translate(3px, -3px);
+    box-shadow: -5px 5px 10px black;
+    transition-duration: 500ms;
+}
+
+input[type=radio]:checked + span{
+    background: #000000ba;
+    border: 1px solid gray;
+    box-shadow: -5px 5px 10px black;
+    transform: translate(3px, -3px);
+}
+
+input[type=radio] {
+    display: none;
+}
+
+button {
+    height: 64px;
+    width: 330px;
+    font-size: 1.2em;
+    transition: 500ms;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+button:hover {
+    height: 64px;
+    width: 330px;
+    font-size: 1.2em;
+    background: #080a0a;
+    color: white;
+    border-radius: 25px;
+    box-shadow: -10px 10px 10px black, 10px -10px 10px black;
+    transform: translate(5px, -5px) scale(1.1);
+    transition: 500ms;
+    font-family: 'Share Tech Mono', monospace;
 }

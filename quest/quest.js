@@ -32,6 +32,8 @@ description.textContent = quest.description;
 quest.choices.forEach(choice => {
     const choiceDOM = createChoice(choice);
     choices.appendChild(choiceDOM);
+    const line = document.createElement('br');
+    choices.appendChild(line);
 });
 
 choiceForm.addEventListener('submit', (event) => {
