@@ -1,0 +1,59 @@
+#map-img {
+    width: 900px;
+    height: auto;
+}
+
+header {
+    margin-top: -72px;
+}
+
+main h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    margin: 10px 0 25px 0;
+    letter-spacing: 5px;
+}
+
+#quests {
+    position: relative;
+    background-image: url("../assets/bg/futuristic-city-wallpaper-5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: calc(90vw * 642 / 900);
+    margin: auto;
+}
+
+.quest {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5em;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+}
+
+.quest.completed {
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.quest:hover {
+    transform: translate(3px, -3px);
+    transition-duration: 500ms;
+}
+
+.quest.completed:hover {
+    color: whitesmoke;
+    transform: translate(0, 0);
+}
+
+.quest.completed:after {
+    content: ' ✔';
+}
+
+a.quest.link-disabled {
+    display: none;
+}

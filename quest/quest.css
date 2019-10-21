@@ -1,0 +1,151 @@
+#choice-form.hidden {
+    display: none;
+}
+
+#result.hidden {
+    display: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 800px;
+}
+
+#title {
+    position: absolute;
+    top: 37%;
+    left: 13%;
+    font-size: 2.5em;
+    width: 100%;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    letter-spacing: 1.2px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#quest-pic {
+    position: relative;
+    margin: 0 auto;
+}
+
+#description {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background: #000000a3;
+    border: 1px solid gray;
+    padding: 15px 25px;
+}
+
+#choice-form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background: #000000a3;
+    border: 1px solid gray;
+    padding: 10px 25px;
+}
+
+#choices {
+    display: block;
+    list-style: none;
+    padding: 0 5px;
+    margin: 0;
+}
+
+#choices span {
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#choices span:hover {
+    background: #000000ba;
+    border: 1px solid gray;
+    transform: translate(3px, -3px);
+    box-shadow: -5px 5px 10px black;
+    transition-duration: 500ms;
+}
+
+input[type=radio]:checked + span{
+    background: #000000ba;
+    border: 1px solid gray;
+    box-shadow: -5px 5px 10px black;
+    transform: translate(3px, -3px);
+}
+
+input[type=radio] {
+    display: none;
+}
+
+button {
+    height: 64px;
+    width: 330px;
+    font-size: 1.2em;
+    transition: 500ms;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0 auto;
+}
+
+button:hover {
+    height: 64px;
+    width: 330px;
+    font-size: 1.2em;
+    background: #080a0a;
+    color: white;
+    border-radius: 25px;
+    box-shadow: -10px 10px 10px black, 10px -10px 10px black;
+    transform: translate(5px, -5px) scale(1.1);
+    transition: 500ms;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background: #000000a3;
+    border: 1px solid gray;
+    padding: 10px 25px;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+a {
+    height: 64px;
+    width: 330px;
+    font-size: 1.2em;
+    transition: 500ms;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0 auto;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    height: 64px;
+    width: 330px;
+    font-size: 1.2em;
+    background: #080a0a;
+    color: white;
+    border-radius: 25px;
+    box-shadow: -10px 10px 10px black, 10px -10px 10px black;
+    transform: translate(5px, -5px) scale(1.1);
+    transition: 500ms;
+    font-family: 'Share Tech Mono', monospace;
+    border: 1px solid white;
+}

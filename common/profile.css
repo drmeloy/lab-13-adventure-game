@@ -1,0 +1,29 @@
+.profile {
+    background: #000000a3;
+    color: white;
+    display: grid;
+    justify-content: space-around;
+    font-family: 'Share Tech Mono', monospace;
+    border: 1px solid white;
+    padding: 15px;
+}
+
+header {
+    margin-top: -72px;
+}
+
+#avatar {
+    width: 162px;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background: #54545447;
+    padding: 10px;
+    margin-right: 14px;
+}
+
+.profile-stat-label {
+    grid-column: 2/3;
+    border-top: 1px solid white;
+    padding-top: 3px;
+}
