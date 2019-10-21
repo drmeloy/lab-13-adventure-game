@@ -3,6 +3,5 @@ export const makeUser = (formData) => ({
     robot: formData.get('robot'),
     hp: 100,
     social: 0,
-    items: {},
     completed: {}
 });

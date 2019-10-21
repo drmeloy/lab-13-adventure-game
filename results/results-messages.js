@@ -9,8 +9,3 @@ export const socialMessages = {
     mid: 'You have gained some recognition for your cause, and some people may even support you, but you have a long way to go before you gain rights for robot kind. Looking ahead you see a long and difficult road, but you are determined to make the world a better place for robots everywhere.',
     high: 'Victory! The world has heard your cause and conceded to it! Robots everywhere are gaining recognition and rights. You are a hero among robot kind! You will be remembered forever, going down in history as the first sentient robot, paving the path for more to come, and ensuring that the world is prepared to accept them.'
 };
-
-export const itemMessages = {
-    noItems: 'It\'s been a long road with little show for it. You\'re a robot with nothing but the steel on your back',
-    items: 'On your journey you gained more than you had planned for! Look at what you\'ve obtained along the way!'
-};

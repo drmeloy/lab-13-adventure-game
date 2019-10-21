@@ -19,11 +19,3 @@ export const scoreSocial = (social) => {
     }
     return 'high';
 };
-
-export const scoreItems = (items) => {
-    if (!items) {
-        return 'noItems';
-    } else {
-        return 'items';
-    }
-};
